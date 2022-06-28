@@ -1,0 +1,15 @@
+
++ What is Inheritence? The process that enables one class to acquire the properties of another
+
+* To inherit from a class use the extends keyword
+
+- Example:
+	class Dog extends Animal {
+		// some code
+	}
+
+* Note that Dog is the subClass and Animal is the superClass
+* You can access the supperclass from the subclass using super keyword
+
+
+

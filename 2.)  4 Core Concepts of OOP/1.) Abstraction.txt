@@ -1,0 +1,26 @@
+
+What is Abstraction? Provides the user with only essential information all non-essential units are not available to the user
+
+* To achieve abstraction use the abstract keyword as the access modifier
+
+- Example: 
+
+    // abstract class
+    abstract class Car {
+        abstract void accelerate();
+    }
+
+    // concrete class
+    class Suzuki extends Car {
+        void accelerate() {
+            System.out.println("Suzuki::accelerate");
+
+        }
+    }
+
+    class Main {
+        public static void main(String args[]) {
+            Car obj = new Suzuki(); // Car object =>contents of Suzuki
+            obj.accelerate(); // call the method
+        }
+    }

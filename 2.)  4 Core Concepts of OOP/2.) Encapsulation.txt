@@ -1,0 +1,23 @@
+
+Encapsulation: binding the data and functions that operate on that data into a single unit known as the class.
+
+* To achieve encapsulation declare the classes variables as private and provide setter and getter methods to access and change the variables
+
+- Example:
+
+	public class Student {
+		private String name;
+
+	public String getName() {
+		return name;
+		}
+
+	public void setName(String name) {
+		this.name = name;
+		}
+	}
+
++ Why encapsulate?
+- The encapsulate class is easy to test. So, it is better for unit testing.
+- It is a way to achieve data hiding in Java because other class will not be able to access the data through the private data members.
+- provides you the control over the data.
