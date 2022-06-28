@@ -1,0 +1,15 @@
+
+* Java is an Object Oriented Programming (OOP) Language, which is a programming paradigm that relies on the concept of classes and objects. It is used to structure a software program into simple, reusable pieces of code blueprints (usually called classes), which are used to create individual instances of objects. OOP is intended to make thinking about programming closer to thinking about the real world
+
+* When we consider a Java program, it can be defined as a collection of objects that communicate via invoking each other's methods
+
++ All code within the public static void main(String[] args) {} are executed
+* To execute methods within your Java application you have to place it in the main method 
+
++ Every valid Java Application must have a class definition that matches the filename
++ Object: a member (also called an instance) of a Java class. Each object has an identity, a behavior and a state. 
++ Class: a container for related functions
++ Method: a function that is part of a class
++ Package: group of related classes
+
++ Java applications consist of Classes and Methods since it's a OOP language
