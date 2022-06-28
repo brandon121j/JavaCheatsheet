@@ -1,0 +1,21 @@
+* import java.util.ArrayList;
+
++ ArrayLists:Arrays with no fixed size
+- Syntax: ArrayList variableName = new ArrayList();
+- Syntax: ArrayList<type> variableName = new ArrayList<type>(size);
+
+- Example:
+	ArrayList<String> names = new ArrayList<String>(10);
+	names.add("Brandon");
+	names.add("Robert");
+	names.set(1, "Rob"); // changes Robert to Rob
+	System.out.println(names.get(0)); // returns Brandon
+
++ ArrayList Methods:
+- add(): adds new obj to ArrayList
+- remove(): removes from ArrayList
+- get(int index): returns element at index
+- contains(): returns if list contains element
+- size(): returns ArrayList size
+- clear(): removes all elements
+- set(): modifies an element

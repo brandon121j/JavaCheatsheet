@@ -1,0 +1,27 @@
+* import java.util.LinkedList;
+
++ LinkedLists: similar syntax of ArrayList. But uses Doubly Linked List to store its elements
+- Syntax: LinkedList<type> variableName = new LinkedList<type>();
+
+* You cannot specify inital capacity like with ArrayList
+* ArrayList is best used when you need rapid access to data and LinkedList when you need to make large number of inserts/deletes
+
+- Example: 
+	LinkedList<String> colors = new LinkedList<String>();
+	colors.add("Red");
+	colors.add("Blue");
+	colors.add("Green");
+	colors.remove("Blue); 
+
++ LinkedList Methods:
+- addFirst(): adds item to beginning of list
+- addLast(): adds item to end of list
+- removeFirst(): removes first item from list
+- removeLast(): removes last item from list
+- getFirst(): gets first item from list
+- getLast(): gets last item from list
+- get(): gets selected item
+- add(): adds item to list
+- remove(): removes item from list
+- set(): modify element
+- size(): returns how many elements are present

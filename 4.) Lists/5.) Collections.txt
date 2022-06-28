@@ -1,0 +1,11 @@
+* import java.util.Collections;
+
++ Collections: enables user to perform various data manipulation operations 
+- Syntax: Collections.methodName(referencedVariable);
+
++ Collections Methods:
+- sort()
+- max()
+- min()
+- reverse()
+- shuffle()

@@ -1,0 +1,22 @@
+* import java.util.Iterator; 
+
++ Iterator: object that can be used to loop through collections
+- Syntax: Iterator<type> variableName = referencedCollection.iterator();
+
+- Example:
+ 	ArrayList<String> cars = new ArrayList<String>();
+    	cars.add("Volvo");
+    	cars.add("BMW");
+    	cars.add("Ford");
+    	cars.add("Mazda");
+
+    	// Get the iterator
+    	Iterator<String> it = cars.iterator();
+
+    	// Print the first item
+    	System.out.println(it.next());
+
++ Iterator Methods:
+- hasNext(): returns true if one more element
+- next(): returns next object and continues iteration
+- remove(): removes object

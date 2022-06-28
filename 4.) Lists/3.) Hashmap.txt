@@ -1,0 +1,18 @@
+* import java.util.HashMap;
+
++ HashMap: used for storing data collections as key pair values
+- Syntax: HashMap<type, Integer> variableName = new HashMap<type, Integer>();
+
+* HashMaps cannot contain duplicate keys
+
+- Example:
+	HashMap<String, Integer> people = new HashMap<String, Integer>();
+	people.put("Brandon", 0);
+	people.put("Robert", 1);
+
++ HashMap Methods:
+- put(): add entry
+- remove(): delete entry
+- get(): retrieves entry
+- containsKey(): boolean if key exists
+- containsValue(): boolean if value exists

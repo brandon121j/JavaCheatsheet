@@ -1,0 +1,10 @@
+* import java.util.HashSet;
+* import java.util.LinkedHashSet;
+
++ HashSet: collection that cannot store duplicate values and does not retain order of elements used
+- Syntax: HashSet<type> variableName = new HashSet<type>();
+
++ LinkedHashSet: Like HashSet except order of elements is retained
+- Syntax: LinkedHashSet<type> variableName = new LinkedHashSet<type>();
+
++ Hashing: keys information content used to determine a unique value called hash code
