@@ -1,0 +1,33 @@
+
++ What are Java Arrays? Arrays are used to store multiple values in a single variable
+
++ Declare Array Syntax: dataType[] arrayName;
+- Example: int[] numbers;
+
++ Declare Array Capacity Syntax: dataType[] arrayName = new dataType[arrayCapacity];
+- Example: int[] data = new int[15]; 
+
++ Initializing Array Syntax: arrayName[arrayIndex] = value;
+- Example: age[2] = 12; 
+
++ Declare and Initialize Syntax: dataType[] arrayName = {arrayValues};
+- Example: String[] cars = {"Ford", "Chevy", "BMW"};
+
++ Accessing Array Elements Syntax: arrayName[arrayIndex]
+- Example: brandonsArray[2];
+
++ Declaring Multidimensional Arrays: type[][] arrayName = new type[3][4];
+- Example: int[][] data = new int[3][4];
+
++ Declaring and Initializing Multidimensional Arrays: type[][] = {{array}, {array}};
+- Example: int[][] data = {{1,2,3}, {4,5,6}};
+
++ Accessing Data in Multidimensional Array: arrayName[arrayColumn][arrayRow];
+- Example: cars[2][4];
+
++ Copying Arrays: type[] arrayName = arrayYouWantToCopy;
+- Example: int[] positiveNumbers = numbers; 
+
+* use .length to access arrayLength
+
+

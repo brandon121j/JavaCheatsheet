@@ -1,0 +1,83 @@
+
+What are Java loops? a feature which facilitates the execution of a set of instructions/functions repeatedly while some condition evaluates to true.
+
++ For Loops:
+	for (initialization; condition; increment/decrement) {
+		statement(s);
+	}
+
+- Example:
+	for (int i = 0; i < 3; i++) {
+		System.out.println("Looping");
+	}
+
+
+
++ While Loops:
+	while (boolean condition) {
+		statement(s);
+	}
+
+- Example: 
+	while (coding == true) {
+		System.out.println("Coding");
+	}
+
+
+
++ Do While Loops: Similar to while loops except they're guaranteed to loop at least once
+	do {statement(s)} while (condition);
+
+- Example:
+	do {
+		i++
+	} while (coding == true);
+
+
+
++ For-Each Loops:
+	for (type variableName: arrayName {
+		statement(s);
+	}
+
+- Example:
+	String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
+	for (String i : cars) {
+ 		 System.out.println(i);
+	}
+
+
+
++ Break Statement: Used to terminate loop immediately
+- Syntax: break;
+- Example: 
+	for (int i = 0; i < 5; i++) {
+		if (i == 3) {
+			break;
+		}
+	}
+
+
+
++ Continue Statement: Used to skip the current iteration of a loop
+- Syntax: continue;
+- Example:
+	boolean count = true;
+	int counter = 0;
+	while (count == true) {
+		if (counter % 2 != 0) {
+			 continue;
+		} else {
+			counter++
+		}
+	}
+		
++ Reverse Loop:
+	for (int variableName = variable.length() - 1; variableName >= 0; variableName--) {
+		// Statements
+	}
+- Example: 
+	for (int i = aList.size() - 1; i >= 0; i--) {
+		String s = aList.get(i);
+	}

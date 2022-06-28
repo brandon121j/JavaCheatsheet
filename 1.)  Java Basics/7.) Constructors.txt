@@ -1,0 +1,27 @@
+
+What is a Java Constructor: a special method that is used to initialize objects
+
+* The constructor name must be the same as the class name
+
++ Constructor Syntax: accessModifier className(type parameters) {}
+- Example: 
+	class Main {
+
+  	int i;
+
+  	// constructor with no parameter
+  	private Main() {
+    		i = 5;
+    		System.out.println("Constructor is called");
+  	}
+
+  	public static void main(String[] args) {
+
+    	// calling the constructor without any parameter
+    	Main obj = new Main();
+    	System.out.println("Value of i: " + obj.i);
+  }
+}
+
++ Calling a Constructor: className variableName = new className();
+- Example: Main obj = new Main();

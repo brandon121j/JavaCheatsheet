@@ -1,0 +1,17 @@
+
++ Enums: Special type used to define collections of constants
+- Syntax:
+	enum variableName {
+		// Constants
+	}
+
+- Example:
+	enum Rank {
+		SOLDIER,
+		SERGEANT,
+		CAPTAIN
+	}
+
+* Note all constants within enum must be capitalized
+
+* To retrieve data from enums use the dot syntax

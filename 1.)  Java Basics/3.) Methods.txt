@@ -1,0 +1,28 @@
+
++ What is a Java Method? Block of code that performs a certain task (aka a function in JS world)
+
++ Simple Method Syntax: returnType methodName() {}
+- Example: int addNumbers() {}
+
++ Complete Method Syntax: accessModifier returnType methodName (parameterList) {}
+- Example: public static int addNumbers(int a, int b) {}
+
++ Method Access Modifiers: restricts the scope of a method
+- default: No keyword required
+- private: Only accessible to the class it's in
+- protected: Accessible within the same package or subclass
+- public: Makes accessible to all classes
+
++ Method Non-Access Modifiers: provide information about their behavior
+- final: cannot be overriden/modified
+- static: belongs to class rather than an object
+- abstract: body is provided by the subclass
+- transient: attributes and methods are skilled when serializing the object containing them
+- synchronized: methods can only be accessed by one thread at a time
+
+
++ No return type: To return no value in a method use the void keyword
+- Syntax: void
+
++ Calling a Method: methodName();
+- Example: myMethod(22);

@@ -1,0 +1,24 @@
++ What is an object? An object is an identifiable entity with some characteristics
+
++ What is a class? A class is a group of objects that share common properties and behavior
+
++ What is a Java Class? An object constructor, or the blueprint for an object
+
+* Every line of code in Java must be in a class
+
+
++ Syntax: accessModifier class ClassName {}
+- Example: 
+	class HelloWorld {
+		// Some Code
+	}
+- example: 
+
+
++ Class Access Modifiers: restrict the scope of a class
+- public: Class is accessible by any other class
+- default: Used when no access modifier is used
+
++ Class Non-Access Modifiers: Don't control access level but provide other functionality
+- final: Cannot be inherited by other classes
+- abstract: Class cannot be used to create objects

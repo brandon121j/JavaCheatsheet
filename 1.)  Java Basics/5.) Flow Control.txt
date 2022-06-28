@@ -1,0 +1,47 @@
+
++ If Else Statement: if (condition) {statements};
+- example:
+	if (month == "June") {		
+		System.out.println("It's June my dudes");
+	}
+
+
+
++ Switch Statement: Allows us to execute a block of code among many alternatives
+- Syntax:
+	switch (expression) {
+		case value1:
+			// code
+			break;
+		default:
+			// code
+			break;
+	}
+- Example:
+    class Main {
+        public static void main(String[] args) {
+
+            int expression = 2;
+
+            // switch statement to check size
+            switch (expression) {
+                case 1:
+                    System.out.println("Case 1");
+
+                    // matching case
+                case 2:
+                    System.out.println("Case 2");
+
+                case 3:
+                    System.out.println("Case 3");
+
+                default:
+                    System.out.println("Default case");
+            }
+        }
+    }
+
+
+
++ Ternary Operator: variable = Expression ? expression1 : expression2;
+- Example: result = (februaryDays == 28) ? "Not a leap year" : "Leap year";
