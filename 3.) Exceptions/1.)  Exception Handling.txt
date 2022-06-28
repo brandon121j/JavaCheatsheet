@@ -1,0 +1,48 @@
+
++ Exceptions: Problem that occurs during program execution
+
++ Try Catch Blocks:
+- Syntax: 
+	try {
+		// some code
+	} catch (Exception e) {
+		// some code to handle errors
+	}
+
+
++ Throw: The throw keyword allows you to mannually generate exceptions from your methods
+- Syntax: 
+	method() throws ArithmeticException {
+		throw new ArithmeticException("Error text you create");
+	}
+
+- Example:
+    public class Program {
+
+        static int div(int a, int b) throws ArithmeticException {
+            if (b == 0) {
+                throw new ArithmeticException("Division by Zero");
+            } else {
+                return a / b;
+            }
+        }
+
+        public static void main(String[] args) {
+            System.out.println(div(42, 0));
+        }
+
+    }
+
+* Multiple exceptions can be defined in the throws statement using commas
+
+* A single try block can contain multiple catch blocks 
+- Example:
+    try {
+        //some code
+    } catch (ExceptionType1 e1) {
+        //Catch block
+    } catch (ExceptionType2 e2) {
+        //Catch block
+    } catch (ExceptionType3 e3) {
+        //Catch block
+    }

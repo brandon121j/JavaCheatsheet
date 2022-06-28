@@ -1,0 +1,13 @@
+
++ Built-in Exceptions:
+- ArithmeticException: exceptional condition has occurred in an arithmetic operation.
+- ArrayIndexOutOfBoundsException: indicate that an array has been accessed with an illegal index.
+- ClassNotFoundException: raised when we try to access a class whose definition is not found
+- FileNotFoundException: raised when a file is not accessible or does not open.
+- IOException: It is thrown when an input-output operation failed or interrupted.
+- InterruptedException: thrown when a thread is waiting, sleeping, or doing some processing, and it is interrupted.
+- NoSuchFieldException: thrown when a class does not contain the field (or variable) specified.
+- NoSuchMethodException: thrown when accessing a method that is not found.
+- RuntimeException: exception that occurs during runtime.
+
+* And many more 
