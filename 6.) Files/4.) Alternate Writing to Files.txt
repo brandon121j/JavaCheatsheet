@@ -1,0 +1,11 @@
+* import java.io.FileWriter;
+
++ FileWriter: The FileWriter class of the java.io package can be used to write data (in characters) to files.
+- Syntax: FileWriter output = new FileWriter(String name); 
+
++ write() Method:
+- write(): writes a single character to the writer
+- write(char[] array): writes the characters from the specified array to the writer
+- write(String data): writes the specified string to the writer
+
+* close() when done with writer

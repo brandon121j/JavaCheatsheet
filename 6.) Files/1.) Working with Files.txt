@@ -1,0 +1,16 @@
+* import java.io.File;
+
++ File: The File class from java.io package, allows us to work with files
+- Syntax: File variableName = new File("whateverName.txt");
+
++ File Methods:
+- canRead(): Tests whether the file is readable or not
+- canWrite(): Tests whether the file is writable or not
+- createNewFile(): Creates an empty file
+- delete(): Deletes a file
+- exists(): Tests whether the file exists
+- getName(): Returns the name of the file
+- getAbsolutePath(): Returns the absolute pathname of the file
+- length(): Returns the size of the file in bytes
+- list(): Returns an array of the files in the directory
+- mkdir(): Creates a directory

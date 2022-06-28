@@ -1,0 +1,7 @@
+* import java.util.Formatter;
+
+Formatter: another useful class in the java.util package, is used to create content and write it to files.
+- Syntax: Formatter variableName = new Formatter("C:\\location\\fileName.txt");
+
+* Surround the code in try/catch block
+
